@@ -19,7 +19,6 @@ function isPangram(s){
  ***************************************************************************************************************/ 
   return true;
 }
-
 // Even though the solution above has passed 2 tests on codewars.com it's  an incorrect answer. 
 // If the the test case is"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabc" it still says that my code returns True.
 
