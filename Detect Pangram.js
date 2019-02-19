@@ -10,7 +10,8 @@ function isPangram(string){
   if(newStr.length < 26){
     return false;
   }
- /* for(let i = 0; i < newStr.length; i++){
+ /* Unfortunately the below codes are redundant
+ for(let i = 0; i < newStr.length; i++){
       if(newStr.charCodeAt(i) < 65 || newStr.charCodeAt(i) > 90) { // if newStr includes any char !== [A-Z]
           return false;
       } 
@@ -20,4 +21,4 @@ function isPangram(string){
 }
 
 // Even though the solution above has passed 2 tests on codewars.com it's not a completely correct answer. 
-// If the the test case is"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabc". It says that my code returns True.
+// If the the test case is"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabc" it still says that my code returns True.
